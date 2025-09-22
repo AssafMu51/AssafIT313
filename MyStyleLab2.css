@@ -1,0 +1,23 @@
+body {
+    background-image: url("Bank background.jpg");
+    background-size: 100% 100%;
+    text-align: center
+}
+h1 {
+  color: #004080;
+}
+h3 {
+  color: #666666;
+}
+h4 {
+    color: #8e44ad;
+}
+form {
+    color:grey;
+    border: none; 
+    border-color: transparent;
+}
+input {
+  height: 25px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1)
+}
