@@ -1,0 +1,114 @@
+<html>
+<head>
+    <title>Lab 4</title>
+</head>
+<body>
+    <!-- first table with css -->
+    <table border="1" width= "30%"> 
+            <col span="1" style="background-color: #2CCE65">
+            <col span="2" style="background-color: #55A000">
+        <th>
+            <ul>
+                <li>Fruit</li>
+                <ul>
+                    <li>Bananas</li>
+                    <li>Apples</li>
+                    <ul type = "square">
+                        <li>Green</li>
+                        <li>Red</li>
+                    </ul>
+                    <li>Pears</li>
+                </ul>
+                <li>Vegetables</li>
+                <li>Meat</li>
+            </ul>
+        </th>
+        <th>
+            <ol>
+                <li>Fruit</li>
+                <ul>
+                    <li>Apples</li>
+                    <li>Oranges</li>
+                    <li>Pears</li>
+                </ul>
+                <li>Vegetables</li>
+                <ul>
+                    <li>Broccoli</li>
+                    <li>Peas</li>
+                    <li>Corn</li>
+                </ul>
+            </ol>
+        </th>
+    </table>
+
+    <br><br>
+    <!--second TAble with css-->
+    <form>
+    <table border="1" cellpadding="5" cellspacing="0" width="20%">
+        <colgroup>
+            <col span="1" style="background-color: red">
+            <col span="2  " style="background-color: yellow">
+        </colgroup>
+        <tr>
+            <th colspan="2">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td><input type="text" name="Name"></td>
+        </tr>
+        <tr>
+            <th>Pizza Topping</th>
+            <th>
+                <input type="radio" name="topping" value="Supreme"> Supreme <br>
+                <input type="radio" name="topping" value="Vegetarian"> Vegetarian <br>
+                <input type="radio" name="topping" value="Hawaiian"> Hawaiian
+            </th>
+        </tr>
+        <tr>
+            <th>Pizza Sauce</th>
+            <th>
+                <select name="Sauce">
+                    <option value="Tomato">Tomato</option>
+                    <option value="BBQ">BBQ</option>
+                </select>
+        </th>
+        </tr>
+        <tr>
+            <th>Optional Extras</th>
+            <th>
+                <input type="checkbox" name="Extra Cheese" value="on">Extra Cheese <br>
+                <input type="checkbox" name="Gluten Free Base" value="on">Gluten Free Base
+            </th>
+        </tr>
+        <tr>
+        <td colspan="2"> 
+            Delivery Instructions:
+            <br>
+            <textarea></textarea>
+        </td>
+        </tr>
+        <td colspan="2" style="background-color: red;">
+            <input type="submit" name="Order" value="Send my Order" style="background-color: yellowgreen;">
+        </td>
+    </table>
+</form>
+<!-- 3rd Table with css-->
+<table border="1" width="40%">
+    <tr>
+        <th colspan="6" style="background-color: aqua;">1</th>
+    </tr>
+    <tr>
+        <th rowspan="2" colspan="2" style="background-color: pink;">2</th>
+        <th rowspan="2" colspan="2" style="background-color: purple;">3</th>
+        <th colspan="2" style="background-color: blue;">4</th>
+    </tr>
+    <tr>
+        <th style="background-color: green;">5</th>
+        <th style="background-color: red;">6</th>
+    </tr>
+    <tr>
+        <th colspan="6" style="background-color: gold;">7</th>
+    </tr>
+</table>
+</body>
+</html>
